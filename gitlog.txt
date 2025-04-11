@@ -1,0 +1,81 @@
+commit 2e9ce7a47b2cd3d1b0e864e662fe8e646493d95b
+Author: Esha <ev259@cornell.edu>
+Date:   Wed Dec 11 20:29:54 2024 -0500
+
+    Updated Board.ml
+    
+    - Track the number of flags placed
+    - Track remaining mines
+
+commit c44aaf7f5ae7269d63a9503dfc51378de86e1ed9
+Author: Esha <ev259@cornell.edu>
+Date:   Wed Dec 11 20:12:36 2024 -0500
+
+    Added functionality functions
+    
+    - Added toggle_flag
+    - Created MS3 report document
+    - Created a reset block
+    - Added compare function to see if blocks are the same
+
+commit d58a06b38c712290e40897b8178ce19bdf045028
+Author: Caitlin Farrell <cf526@cornell.edu>
+Date:   Wed Oct 30 22:14:13 2024 -0400
+
+    Added youtube link to gallery file
+
+commit f958de49ee04f6fa15d2f095ed803c8303e41f98
+Author: Caitlin Farrell <cf526@cornell.edu>
+Date:   Tue Oct 29 23:51:48 2024 -0400
+
+    Implemented Block module
+    
+    - Moved BlockSig to the Block.ml file
+    - Implemented Block such that it matches the BlockSig signature
+    - Implemented functorized test suite of Block
+
+commit e6e9e0c776173481f5c5f11ff96cf8a9777410b3
+Author: Caitlin Farrell <cf526@cornell.edu>
+Date:   Tue Oct 29 19:53:40 2024 -0400
+
+    Added INSTALL.md
+    
+    - Contains instructions for the user to install graphics and to run the program
+
+commit 5119348f124a6566c6d77696f8afe738c0c64211
+Author: Caitlin Farrell <cf526@cornell.edu>
+Date:   Tue Oct 29 19:42:41 2024 -0400
+
+    Added Gallery Yaml File
+
+commit a276ec61c74bfc37d18083bab7f8ba5e8696625c
+Author: Logan Abramowitz <la437@cornell.edu>
+Date:   Sun Oct 27 21:42:27 2024 -0400
+
+    Reimplement Gui using Graphics
+    
+    - Used Graphics library instead of the previous lablgtk
+    - Added block .mli file to serve as basis for the game
+    - Also created polygon to become the flag
+
+commit 9ddf3cc26f5749ee085341780d0a7ae0696f1e52
+Author: Logan Abramowitz <la437@cornell.edu>
+Date:   Sun Oct 27 20:32:27 2024 -0400
+
+    Implement basic GUI
+    
+    - The basic 9x9 grid with buttons
+    - Each button can be clicked and the coordinate of that button is printed to terminal
+    - Constants at top will allow for future changes
+
+commit 562d4d4e8297950361be84786110d2d118beb1d5
+Author: Caitlin Farrell <cf526@cornell.edu>
+Date:   Sun Oct 27 19:35:59 2024 -0400
+
+    Create README.md
+
+commit 1737ef62f05872fa8c226654d3eb4f469c33f2f1
+Author: Caitlin Farrell <cf526@cornell.edu>
+Date:   Sun Oct 27 19:33:41 2024 -0400
+
+    Initial Commit

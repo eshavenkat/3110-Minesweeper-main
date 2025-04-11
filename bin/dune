@@ -1,0 +1,4 @@
+(executable
+ (public_name Minesweeper)
+ (name main)
+ (libraries Minesweeper graphics unix))

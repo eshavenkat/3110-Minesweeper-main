@@ -1,0 +1,33 @@
+---
+# Members of your group.
+group:
+  - name: Caitlin Farrell
+    netid: cf526
+  - name: Logan Abramowitz
+    netid: la437
+  - name: Esha Venkatanarayan
+    netid: ev259
+  - name: Neeharika Kotimreddy
+    netid: nrk59
+# Your PM.
+pm:
+  name: CJ Aggarwal
+  netid: coa23
+# Set to false if you don't want your gallery entry to be public.
+publish: true
+# Pithy title
+title: "Deep Minesweeper"
+# OK if this is a Cornell Github link, but public gallery viewers won't be able to see it.
+git-repo: "https://github.coecis.cornell.edu/cf526/3110-Minesweeper"
+# Replace the URL with your own demo video.
+demo-video-url: "https://youtu.be/Hf2ifvWB4pM"
+# Write a short, attention-grabbing description of your project.
+desc: >
+  Our project is the popular game minesweeper, but with a twist. Like usual, 
+  Deep Minesweeper displays a grid where clicking on a box displays the number 
+  of mines in adjacent blocks. However, Deep Minesweeper has 3 dimensions and 
+  therefore this number also includes adjacent mines on other layers. Therefore,
+  if you believe a box has mine, it should be dug out rather than flagged so 
+  that you can view the blocks beneath it. You must be careful as you can only
+  dig up the number of blocks equal to the total number of mines. Each layer has
+  a different color, that way the user can tell which layer each box is in.

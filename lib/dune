@@ -1,0 +1,5 @@
+(library
+ (name Minesweeper)
+ (modules block board)
+ (instrumentation
+  (backend bisect_ppx)))

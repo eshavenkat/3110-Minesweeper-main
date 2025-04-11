@@ -1,0 +1,4 @@
+(test
+ (name test_Minesweeper)
+ (libraries ounit2 Minesweeper)
+ )
