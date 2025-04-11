@@ -8,12 +8,9 @@ The goal of Minesweeper is to clear a grid containing hidden mines without deton
 
 ## 🧠 Features
 
-- Interactive terminal-based gameplay
-- Customizable board sizes and mine counts
+- Terminal-based gameplay with graphics rendering
+- Multiple difficulty levels: easy, medium, hard
+- Customizable grid size and depth
 - Safe first-click logic
 - Recursive reveal for empty tiles
-- Flagging and unflagging suspected mines
-- Game-over and victory detection
-
-## 📁 Project Structure
-
+- Flag/unflag tiles and detect game win/loss
